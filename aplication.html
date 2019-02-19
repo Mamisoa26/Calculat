@@ -1,0 +1,55 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+       <title>Aplication test</title> 
+       <link rel="stylesheet" href="appli.css">  
+       <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6" id="bloc">
+                                <label for="nombre1">A:</label>
+                                <input id="nb1" type="text"  name="A"><br><br>
+                                <label for="nombre1">B:</label>
+                                <input id="nb2" type="text"  name="B" ><br><br>
+                                <input id ="som" type="submit" value="somme" onclick="myFunction()"  ><br><br>
+                                <label for="resultat">Resultat:</label>
+                                <div id="resultat" name="resultat"> </div><br>
+                        </div>
+                        <div class="col-md-6" id="bloc">
+                                <label for="nombre1">C:</label>
+                                <input id="nb3" type="text"  name="A"><br><br>
+                                <label for="nombre1">D:</label>
+                                <input id="nb4" type="text"  name="B" ><br><br>
+                                <input id ="som1" type="submit" value="multiplication" onclick="myFunction1()" ><br><br>
+                                <label for="resultat1">Resultat:</label>
+                                <div id="resultat1" name="resultat"> </div><br>
+                        </div> 
+                    </div>
+                        <div class="row">
+                            <div class="col-md-6" id="bloc1">
+                                    <label for="in">Entree:</label>
+                                    <input type="text" name="in" id="in"><br><br>
+                                    <input type="button" value="1" onclick="one()" id="one" class="bout">
+                                    <input type="button" value="2" onclick="two()" id="two" class="bout">
+                                    <input type="button" value="+" onclick="plus()"id="plus">
+                                    <input type="button" value="=" onclick="egl()"id="egl"><br>
+                            </div>       
+                            <div class="col-md-6" id="bloc">
+                                    <label for="">nombre:</label>
+                                    <input type="text"  id="nombre"><br><br>
+                                    <input type="button" value="NPP" onclick="test()" class="np"><br><br>
+                                    <label for="resultat">Resultat:</label><br><br>
+                                    <div id="resultat2" name="resultat"> </div><br>  
+                                </div>
+                                
+                        </div>       
+                    
+        </div>
+        
+    
+        <script src="aplication.js"></script>
+        
+    </body>   
+</html>   
